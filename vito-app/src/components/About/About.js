@@ -1,5 +1,6 @@
 import React from 'react'
-
+import data from 'D:/MyrepoClone/MyRepo/vito-app/src/db.json'
+import data2 from 'D:/MyrepoClone/MyRepo/vito-app/src/db2.json'
 function About() {
   return (
     <div className="container-fluid"  >
@@ -9,19 +10,50 @@ function About() {
       <div className="col-lg-4 about-card">
         <h3 className="font-weight-light">Who am I ?</h3>
         <span className="line mb-5" />
-        <h5 className="mb-3">A Web Designer / Developer Located In Our Lovely Earth</h5>
-        <p className="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?</p>
-        <button className="btn btn-outline-danger"><i className="icon-down-circled2 " />Download My CV</button>
+        <h5 className="mb-3">
+          <div>
+          {data.map(({title, subTitle}) => (
+          <div><h4>{title}</h4>
+          <p>{subTitle}</p>
+          </div>
+          ))}
+          </div>
+          </h5>
       </div>
       <div className="col-lg-4 about-card">
         <h3 className="font-weight-light">Personal Info</h3>
         <span className="line mb-5" />
         <ul className="mt40 info list-unstyled">
-          <li><span>Birthdate</span> : 31/07/2002</li>
-          <li><span>Email</span> : vito.korengkeng.com</li>
-          <li><span>Phone</span> : +62-877-3818-8209</li>
-          <li><span>Skype</span> : Vito Julio korengkeng </li>
-          <li><span>Address</span> : Tompasobaru 2</li>
+         
+          {data2.map(({id,title, subTitle})=>(
+            <div>
+              <span>{title}</span>
+              <h7>{subTitle}</h7>   
+            </div>
+          ))}
+
+          {data2.map(({title2, subTitle2})=>(
+            <div>
+            <span>{title2}</span>
+            <h7>{subTitle2}</h7>  
+            </div>
+          ))}
+
+          {data2.map(({title3, subTitle3})=>(
+            <div>
+            <span>{title3}</span>
+           <h7>{subTitle3}</h7>  
+            </div>
+          ))}
+
+          {data2.map(({title4, subTitle4})=>(
+            <div>
+            <span>{title4}</span>
+            <h7>{subTitle4}</h7>  
+            </div>
+          ))}
+          
+          
         </ul>
         <ul className="social-icons pt-3">
           <li className="social-item"><a className="social-link" href="#"><i className="ti-facebook" aria-hidden="true" /></a></li>

@@ -2,7 +2,7 @@ import React from 'react'
 import Aos from 'aos'
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="home">
     <div className="container" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
@@ -16,8 +16,8 @@ function Header() {
       <div className="header-content" >
         <h4 className="header-subtitle">Hello, I am</h4>
         <h1 className="header-title">Vito Julio Korengkeng</h1>
-        <h6 className="header-mono">Frond end Designer | Developer</h6>
-        <button className="btn btn-primary btn-rounded"><i className="ti-printer pr-2" />Print Resume</button>
+        <h6 className="header-mono">Student Faculty Of Computer Science, Informatic </h6>
+
       </div>
     </div>
   </header>

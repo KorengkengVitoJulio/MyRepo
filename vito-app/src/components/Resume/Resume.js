@@ -9,29 +9,7 @@ function Resume() {
       <br/> <br/> <br/>
     <h2 className="mb-5"><span className="text-danger">My</span> Resume</h2>
     <div className="row">
-      <div className="col-md-6 col-lg-4">
-        <div className="card">
-          <div className="card-header">
-            <div className="mt-2">
-              <h4>Expertise</h4>
-              <span className="line" />  
-            </div>
-          </div>
-          <div className="card-body">
-            <h6 className="title text-danger">2017 - Present</h6>
-            <p>UX Developer</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
-            <hr />
-            <h6 className="title text-danger">2016 - 2017</h6>
-            <p>Front-end Developer</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
-            <hr />
-            <h6 className="title text-danger">2015 - 2016</h6>
-            <p>UX Designer</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
-          </div>
-        </div>
-      </div>
+
       <div className="col-md-6 col-lg-4">
         <div className="card">
           <div className="card-header">
@@ -41,17 +19,18 @@ function Resume() {
             </div>
           </div>
           <div className="card-body">
-            <h6 className="title text-danger">2017 - Present</h6>
-            <p>B.E Computer Engineering</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</p>
+          <h6 className="title text-danger">2015 - 2017</h6>
+            <p>Junior High School</p>
+            <p className="subtitle">I studied at Advent Tompasobaru Middle School until I graduated in 2017</p>
             <hr />
-            <h6 className="title text-danger">2016 - 2017</h6>
-            <p>Diploma in Computer Engineering</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</p>
+            <h6 className="title text-danger">2017 - 2020 Present</h6>
+            <p>Graduation CoVid Senior High School</p>
+            <p className="subtitle">I was in high school at Advent Tompaso Kawangkoan Advanced School and graduated there in 2020</p>
             <hr />
-            <h6 className="title text-danger">2015 - 2016</h6>
-            <p>High School Degree</p>
-            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+            
+            <h6 className="title text-danger">2020</h6>
+            <p>Student Klabat University</p>
+            <p className="subtitle">I studied at Klabat University taking the faculty of computer science majoring in informatics</p>
           </div>
         </div>
       </div>
@@ -64,29 +43,29 @@ function Resume() {
             </div>
           </div>
           <div className="card-body pb-2">
-            <h6>hTL5 &amp; CSS3</h6>
+            <h6>C</h6>
             <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '97%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+              <div className="progress-bar bg-danger" role="progressbar" style={{width: '75%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>JavaScript</h6>
+            <h6>C++</h6>
             <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '85%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+              <div className="progress-bar bg-danger" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>PHP</h6>
+            <h6>C#</h6>
             <div className="progress mb-3">
               <div className="progress-bar bg-danger" role="progressbar" style={{width: '80%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>SQL</h6>
+            <h6>HTML</h6>
             <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '90%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+              <div className="progress-bar bg-danger" role="progressbar" style={{width: '80%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>Laborum</h6>
+            <h6>CSS</h6>
             <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '90%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+              <div className="progress-bar bg-danger" role="progressbar" style={{width: '70%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>Tempora</h6>
+            <h6>Phyton</h6>
             <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '90%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
+              <div className="progress-bar bg-danger" role="progressbar" style={{width: '60%'}} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
             </div>
           </div>
         </div>
@@ -102,14 +81,7 @@ function Resume() {
             <div className="progress mb-3">
               <div className="progress-bar bg-danger" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
             </div>
-            <h6>French</h6>
-            <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '45%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
-            </div>
-            <h6>Spanish</h6>
-            <div className="progress mb-3">
-              <div className="progress-bar bg-danger" role="progressbar" style={{width: '67%'}} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} />
-            </div>
+           
           </div>
         </div>
       </div>
